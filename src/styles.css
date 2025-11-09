@@ -1,0 +1,12 @@
+body { background: #f3f4f6; font-family: Inter, system-ui, Arial; margin: 0; }
+.app-root { max-width: 1200px; margin: 0 auto; padding: 12px; }
+.header-bar { display:flex; justify-content:space-between; align-items:center; background:#222; color:white; padding:10px; }
+.header-bar button { background:#555; color:white; border:none; padding:6px 10px; border-radius:4px; cursor:pointer; }
+.grid { display:grid; grid-template-columns:1fr 2fr; gap:10px; }
+aside { background:white; padding:10px; border-radius:8px; }
+main { background:white; padding:10px; border-radius:8px; }
+.login-screen { display:flex; justify-content:center; align-items:center; height:100vh; background:#f3f4f6; }
+.login-box { background:white; padding:30px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); width:300px; text-align:center; }
+.login-box input { width:100%; padding:8px; margin-top:10px; border:1px solid #ccc; border-radius:6px; }
+.login-box button { width:100%; margin-top:12px; padding:8px; background:#222; color:white; border:none; border-radius:6px; cursor:pointer; }
+.error { color:red; margin-top:10px; font-size:0.9em; }
